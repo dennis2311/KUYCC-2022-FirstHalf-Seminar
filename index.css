@@ -1,3 +1,45 @@
-div {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html,
+body,
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+
+#ycc-logo {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: white;
+    font-weight: bold;
+}
+
+.text__main {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.text__ps {
+    margin-top: 100px;
 }
